@@ -21,7 +21,7 @@ public class StudentGroupService {
         return studentGroup;
     }
 
-    public Student getStudentFromStudentGroup(String firstName, String secondName){
+    public Student getStudentFromStudentGroup(String firstName, String secondName) {
         Iterator<Student> iterator = studentGroup.iterator();
         List<Student> result = new ArrayList<>();
         while (iterator.hasNext()){
@@ -54,3 +54,4 @@ public class StudentGroupService {
         return students;
     }
 }
+
